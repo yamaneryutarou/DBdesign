@@ -1,0 +1,5 @@
+2-2
+	ハードウェアリソースの情報取得方法
+	Windows パフォーマンスモニタ
+	Linux sar,vmstat,iostat,netstat
+	
