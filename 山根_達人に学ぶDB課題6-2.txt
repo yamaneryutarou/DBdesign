@@ -1,0 +1,19 @@
+6-2
+	B-treeインデックスは更新が発生することで時間とともに構造が崩れ、性能が劣化します。
+	これを防止するためにインデックスの再編成が必要になります。
+	具体的な方法をDBMSごとに調べて下さい。
+	
+	mysql
+		mysqldump データベース名 > dump.sql
+		mysql データベース名 < dump.sql
+		
+	sql server
+		ALTER INDEX インデックス名 REORGANIZE
+		
+	oracle
+		ALTER INDEX インデックス名 REBUILD
+		
+	PostgreSQL
+		REINDEX インデックス名
+	
+	
