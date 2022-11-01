@@ -1,0 +1,8 @@
+9-2
+	入れ子区間モデルの「左端」および「右端」の列を実装するためのデータ型調べる
+	・Oracle
+	・SQL Server
+	・DB2
+	・PostgreSQL
+	・MySQL
+	いずれもREAL型
